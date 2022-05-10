@@ -2,11 +2,13 @@ import React from "react";
 import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import Process from "../components/Process";
+import Header from "../components/Header";
 
 const AboutPage = () => {
   return (
     <div>
       <div className="container">
+        {/* <Header /> */}
         <HeroSection />
         <div className="my-5">
           <h1 className="mb-5">About Us</h1>
