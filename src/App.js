@@ -8,10 +8,10 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter >
         <Header />
         <Routes>
-          <Route exact path="/HomePage" element={<HomePage />}/>
+          <Route exact path="/" element={<HomePage />}/>
           <Route path="/AboutPage" element={<AboutPage />}/>
           <Route path="/ContactPage" element={<ContactPage />}/>
           </Routes>
