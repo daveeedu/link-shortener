@@ -29,7 +29,7 @@ const Footer = () => {
         <h5 className="text-start">Company</h5>
           <ul className="list-unstyled text-start">
             <li>
-                <Link className="text-decoration-none text-secondary" to="/HomePage">Home</Link>
+                <Link className="text-decoration-none text-secondary" to="/Home">Home</Link>
             </li>
             <li>
                 <Link className="text-decoration-none text-secondary"  to="/AboutPage">About Us</Link>

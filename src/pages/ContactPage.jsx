@@ -9,7 +9,7 @@ const ContactPage = () => {
     <div>
       <div className="container">
         <HeroSection />
-        <div className="rounded-2 border-white bg-light m-5 border">
+        <div className="rounded-4 my-3 border-white bg-light  border">
         <div className="my-5">
           <h1>Contact Us</h1>
         </div>
@@ -23,9 +23,6 @@ const ContactPage = () => {
               aria-describedby="emailHelp"
               placeholder="Enter email"
             />
-            <span id="emailHelp" className="form-text text-muted">
-              We'll never share your email with anyone else.
-            </span>
           </div>
           <div className="form-group text-start mb-5">
             <label className="fst text-secondary" htmlFor="exampleInputPassword1">Message</label>

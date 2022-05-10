@@ -7,12 +7,13 @@ import Process from '../components/Process'
 import Results from '../components/Results'
 import Stats from '../components/Stats'
 
-const HomePage = () => {
+const Home = () => {
   const [inputValue, setInputValue] = useState("");
 
   return (
     <div>
     <div className="container">
+        {/* <Header /> */}
         <HeroSection />
         <LinkShortener setInputValue={setInputValue} />
         <Results inputValue={inputValue} />
@@ -24,4 +25,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default Home;

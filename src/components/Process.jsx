@@ -42,7 +42,7 @@ const Process = () => {
           </Card>
         ))}
       </CardGroup>
-      {show && <Link to="/AboutPage"><Button type="submit" className="bg-white cont-button-2 mb-5" variant="outline-success">Read More</Button></Link>}
+      <Link to="/AboutPage"><Button type="submit" className="bg-white cont-button-2 mb-5" variant="outline-success">Read More</Button></Link>
     </div>
   );
 };
