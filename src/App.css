@@ -180,7 +180,7 @@
 
 @media (max-width: 768px) {
   .cont-button {
-    width: 70%;
+    width: 70% !important;
     height: 65px;
     border: 1px solid #ccc;
     border-radius: 20px !important;
