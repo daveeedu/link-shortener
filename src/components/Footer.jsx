@@ -10,7 +10,7 @@ const Footer = () => {
           <h3><Link to="/HomePage" className="text-danger text-decoration-none">LinkMasteer</Link></h3>
         </div>
         <div className="col-md-2">
-          <h5 className="text-start">Feature</h5>
+          <h5 className="text-start">Feature</h5> 
           <ul className="list-unstyled text-start">
             <li className="text-secondary">Link shortening</li>
             <li className="text-secondary">Branded links</li>
