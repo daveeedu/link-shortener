@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { IIllustrationWorking } from '../utils/icons.utils';
 
 const HeroSection = () => {
   return (
@@ -10,7 +11,7 @@ const HeroSection = () => {
             <Button variant="outline-success">Get Started</Button>{' '}
         </div>
         <div className="col-md-6 pt-3">
-            <img className="hero-img" src="./images/illustration-working.svg" alt="#google"/>
+            <img className="hero-img" src={IIllustrationWorking} alt="#google"/>
 
         </div>
     </div>

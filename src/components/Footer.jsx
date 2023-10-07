@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { IIconFacebook, IIconInstagram, IIconPinterest, IIconTwitter } from "../utils/icons.utils";
 
 const Footer = () => {
   return (
@@ -41,16 +42,16 @@ const Footer = () => {
         </div>
         <div className="col-md-2">
           <a href="https://facebook.com">  
-          <img className="me-2 socials" src="./images/icon-facebook.svg" alt="logo" />
+          <img className="me-2 socials" src={IIconFacebook} alt="logo" />
           </a>
           <a href="https://instagram.com">
-          <img className="me-2 socials" src="./images/icon-instagram.svg" alt="logo" />
+          <img className="me-2 socials" src={IIconInstagram} alt="logo" />
           </a>
           <a href="https://twitter.com">
-          <img className="me-2 socials" src="./images/icon-twitter.svg" alt="logo" />
+          <img className="me-2 socials" src={IIconTwitter} alt="logo" />
           </a>
           <a href="https://pinterest.com">
-          <img className="socials"src="./images/icon-pinterest.svg" alt="logo" />
+          <img className="socials"src={IIconPinterest} alt="logo" />
           </a>
         </div>
       </div>
